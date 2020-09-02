@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active:
+      default
+    cloud:
+      config:
+        enabled: true
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://jiandb.cjj6mhwwu0c8.us-east-2.rds.amazonaws.com:3306/multiplex
+    username: jian
+    password: bone404171
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
