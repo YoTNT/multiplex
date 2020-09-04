@@ -16,6 +16,9 @@ spring:
       ddl-auto: update
     show-sql: true
     
+server:
+  port: 7100
+    
 eureka:
   instance:
     preferIpAddress: true
