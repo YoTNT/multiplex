@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active:
+      default
+    cloud:
+      config:
+        enabled: true
+
+server:
+  port: 7500
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
