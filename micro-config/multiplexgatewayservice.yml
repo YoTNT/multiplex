@@ -20,5 +20,5 @@ zuul:
   prefix: /api
   routes:
     multiplexmovieservice: /movtiplex/**
-    multiplexregistrationservice: /auth/**
+    multiplexregistrationservice: /user/**
   ignored-services: '*'
