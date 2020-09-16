@@ -25,3 +25,7 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
+
+jwt:
+  expiration:
+    time: 1000000
